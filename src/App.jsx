@@ -1,12 +1,12 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
-import home from './pages/home'
-import about from './pages/about'
-import contact from './pages/contact'
-import product from './pages/product'
-import cart from './pages/cart'
-import login from './pages/login'
-import placeOrder from './pages/placeOrder'
+import home from './pages/Home'
+import about from './pages/About'
+import contact from './pages/Contact'
+import product from './pages/Product'
+import cart from './pages/Cart'
+import login from './pages/Login'
+import placeOrder from './pages/PlaceOrder'
 
 const App = () => {
   return (

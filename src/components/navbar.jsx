@@ -1,12 +1,13 @@
 import React from 'react'
-import {assets} from '../assets/assets'
+import images from '../assets/assets';
 
-const navbar = () => {
+
+const Navbar = () => {
   return (
-    <div className='flex item-center justify-between py-5 font-medium'>
-      <img src="" alt="" />
+    <div className='flex items-center justify-between py-5 font-medium'>
+      <img src={images.logo} className="w-36" alt="Weaveleafs Logo" />
     </div>
   )
 }
 
-export default navbar
+export default Navbar
